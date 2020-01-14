@@ -62,7 +62,7 @@ export default (state = initialState, action: any) => {
             quantity: item.quantity,
             name: item.name,
             brand: item.brand,
-            description: item.description
+            description: item.description,
           });
         }
       });

@@ -2,7 +2,7 @@ import { ADD_PRODUCT_TO_KART, REMOVE_PRODUCT_FROM_KART, BUY_PRODUCTS_FROM_KART, 
 
 // Add product to kart...
 
-export const setGridStateNegociacao = (product_payload: any) => {
+export const addProductToKart = (product_payload: any) => {
   return {
     type: ADD_PRODUCT_TO_KART,
     payload: product_payload,
