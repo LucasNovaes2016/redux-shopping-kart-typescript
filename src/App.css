@@ -1,0 +1,30 @@
+.navbar {
+  min-height: 75px;
+}
+
+.navbar-nav {
+  font-size: 1.04rem;
+}
+
+.jumbotron {
+  background-color: #e2e3e6;
+  padding: 2rem 2rem;
+}
+
+.lead {
+  font-size: 1.4rem;
+}
+
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  background-color: #f3f3f3;
+}
+
+.card-text {
+  min-height: 60px;
+}
+
+.Toastify__toast {
+  height: 80px;
+  font-size: 1.1rem;
+}

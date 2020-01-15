@@ -23,7 +23,7 @@ export const buyProductFromKart = () => {
   };
 };
 
-export const setActiveMenuItem = (menu_item_title: any) => {
+export const setActiveMenuItem = (menu_item_title: string) => {
   return {
     type: SET_ACTIVE_MENU_ITEM,
     payload: menu_item_title,
